@@ -2,9 +2,10 @@
     "name": "makuen/search-table",
     "description": "",
     "type": "library",
+    "license": "MIT",
     "author": {
         "name": "makuen",
-        "email": ""
+        "email": "machuan5318@163.com"
     },
     "require": {
         "laravel/framework": "^5.8.*",
