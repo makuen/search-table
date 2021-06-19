@@ -17,7 +17,7 @@
     },
     "extra": {
         "laravel": {
-            "provider": [
+            "providers": [
                 "Makuen\\Searchtable\\SearchTableProvider"
             ]
         }
