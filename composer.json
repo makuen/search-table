@@ -1,0 +1,25 @@
+{
+    "name": "makuen/search-table",
+    "description": "",
+    "type": "library",
+    "author": {
+        "name": "makuen",
+        "email": ""
+    },
+    "require": {
+        "laravel/framework": "^5.8.*",
+        "doctrine/dbal": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Makuen\\SearchTable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "provider": [
+                "Makuen\\Searchtable\\SearchTableProvider"
+            ]
+        }
+    }
+}
